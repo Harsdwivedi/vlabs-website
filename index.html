@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title> Basic Layout</title>
+        <style>
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                background-color:slategray ;
+                margin: 0;
+                padding:0;
+            }
+            #wrapper{
+                border:1px solid black;
+                width: 1000px;
+                background: white;
+                margin: 0 auto;
+            }
+            #header{
+                background: green;
+                color: white;
+                height: 100px;
+            }
+            #header h1{
+                padding: 30px 0px 0px 20px
+            }
+            #menu{
+                background: lightsalmon;
+            }
+            #menu li{
+                display: inline-block;
+            }
+            #menu li a{
+                display: block;
+                padding: 10px 15px;
+                text-decoration: none;
+                color: black;
+            }
+            #menu li a:hover{
+                background: crimson;
+                color: white;
+            }
+            #menu ul{
+                margin: 0px;
+                padding: 0px;
+            }
+            #content{
+                width: 800px;
+                min-height: 500px;
+                padding: 15px;
+                float: left;
+                box-sizing: border-box;
+            }
+            #sidebar{
+                background: lightgreen;
+                width: 200px;
+                min-height: 500px;
+                float: right;
+            }
+            #sidebar a{
+                text-decoration: none;
+                color: black;
+            }
+            #sidebar li a:hover{
+                background: crimson;
+                color: white;
+            }
+            #footer{
+                background: lightskyblue;
+                padding: 5px 10px;
+                text-align: right;
+                clear:both;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>Virtual Labs IIT Kanpur</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Photos</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Staff</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <h2>Introduction</h2>
+                <p>Conducting experiments is frequently constrained by
+                    physical distances and the scarcity of resources,
+                    especially when complicated apparatus are used.
+                    To provide remote access to laboratories in several
+                    branches of research and engineering, virtual labs
+                    have been developed. These virtual labs serve
+                    undergraduate, graduate, post-doctoral, and research
+                    scholar students. The  Ministry of Education (MoE),
+                    Government of India, a project of the Indian
+                    government known as the Virtual Labs project, is under
+                    the auspices of the National Mission on Education
+                    through Information and Communication Technology
+                    (NMEICT), which serves as its umbrella body.Virtual
+                    Labs don't need any additional infrastructure settings
+                    to run tests on user premises. Online access is available
+                    for the simulation-based research from a distance. 
+                    When remote-triggered studies were first conducted in
+                    2010 with the Ministry's official support.</p>
+            </div>
+            <div id="sidebar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Photos</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Staff</a></li>                   
+                </ul>
+            </div>
+            <div id="footer">
+                 Design By: Harsh Dwivedi <br>
+                 vlabsiitk@copyright. 2023
+            </div>
+        </div>
+    </body>
+</html>
+        
